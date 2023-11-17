@@ -1,4 +1,4 @@
-
+#all in online here for more clarity : https://github.com/Brice789/PowerShell-TP1
 
 $numbers = 1,2,3,4,5,6,7,8,9,10
 
