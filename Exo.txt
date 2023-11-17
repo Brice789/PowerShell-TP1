@@ -1,0 +1,42 @@
+
+Exercises 1 and 2 - Flow control and Functions
+
+Exercise 1: Arrays and Loops
+
+Create an array called $numbers containing the numbers 1 to 10.
+Use a loop to iterate through the array and display each number, but only if it's
+an even number.
+Take a screenshot of the PowerShell session showing the array creation, loop,
+and output.
+
+
+
+Exercise2: Functions
+Create a function called Get-Factorial that calculates the factorial of a given
+number.
+Use the function to calculate the factorial of 5.
+Take a screenshot of the PowerShell session showing the function creation and
+usage.
+Working with files and folders
+Navigating through PowerShell drives and manipulating the items on them is similar
+to manipulating files and folders on Windows disk drives. This article discusses how
+to deal with specific file and folder manipulation tasks using PowerShell.
+Creating files and folders
+Creating new items works the same on all PowerShell providers. If a PowerShell
+provider has more than one type of item—for example, the FileSystem PowerShell
+provider distinguishes between directories and files—you need to specify the item
+type.
+
+
+
+Exercise 3: Processes and Advanced File
+Operations
+Create a folder named PowerShellLogs in your home folder.
+Create a PowerShell script called Top10Processes to retrieve the 10 processes
+with greatest execution time and save this information to a text file named
+according to the input argument of the program in the PowerShellLogs folder.
+Example of usage:
+TP03 - Introduction to Power Shell 37
+PS C:\Users\MyUser> . ./Top10Processes.ps1 filenameOutput.txt
+Result:
+File 'filenameOutput.txt' saved in \PowerShellLogs\
